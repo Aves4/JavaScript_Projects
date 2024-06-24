@@ -1,0 +1,32 @@
+/*.foodItemsBgContainer {
+  background-image: url("/bg.png");
+  background-size: cover;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}*/
+
+.foodItemsBgContainer {
+  background-image: url("/bg.png");
+
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.loading {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.error {
+  color: red;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}

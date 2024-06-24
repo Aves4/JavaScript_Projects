@@ -1,0 +1,39 @@
+.scoreButtonContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.scores {
+  line-height: 0px;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+.diceContainer {
+  margin: 60px;
+  text-align: center;
+  gap: 25px;
+}
+
+.buttonResetStore {
+  width: 200px;
+  height: 35px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.buttonShowRules {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(17, 17, 17);
+  border: 1px solid black;
+  color: white;
+  margin: 15px;
+}
+
+.errorMessageButtonsContainer {
+  display: flex;
+  flex-direction: column;
+}

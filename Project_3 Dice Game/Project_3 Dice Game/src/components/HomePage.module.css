@@ -1,0 +1,25 @@
+.homePageContainer {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: center;
+}
+
+.homePageButton {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 80px;
+}
+.textContainer {
+  position: relative;
+  padding-top: 80px;
+}
+.buttonElement {
+  text-align: right;
+}

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  line-break: 20px;
+  text-align: left;
+}
+
+.support-form-container {
+  max-width: 600px;
+  padding-top: 40px;
+  line-height: 0px;
+}
+
+button {
+  height: 30px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.email-button {
+  width: 410px;
+  background-color: white;
+  color: black;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(18, 18, 18);
+  padding: 0px;
+  margin-top: 10px;
+}
+
+input {
+  width: 400px;
+  height: 25px;
+}
+
+.support-container {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,12 @@
+.gameNumberButtons {
+  font-size: 35px;
+  width: 50px;
+  margin: 10px;
+  background-color: white;
+  border: 1px solid rgb(97, 96, 96);
+}
+
+.isClicked {
+  color: white;
+  background-color: black;
+}
